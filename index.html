@@ -205,7 +205,10 @@
                     <h3 class="card-title">Price: <span class="price-ke">KSh 450</span><span class="price-ug" style="display:none;">UGX 1,870</span><span class="price-tz" style="display:none;">TZS 1,340</span></h3>
                    
                     <table class="table" id="draws-table">
-                        <thead><tr><th>Match</th><th>Tip</th><th>Odds</th></tr></thead>     
+                        <thead><tr><th>Match</th><th>Tip</th><th>Odds</th></tr></thead> 
+                        <thead><tr><th>  LOCKED </th><th> DRAW </th><th> 5.0 </th></tr></thead>
+                        <thead><tr><th>  LOCKED </th><th> DRAW </th><th> 2.50 </th></tr></thead>
+                        <thead><tr><th> LOCKED </th><th> DRAW </th><th> 3.0 </th></tr></thead>
                         <tbody><tr><td colspan="3"><div class="loader"></div></td></tr></tbody>
                     </table>
                     <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#basictips">Buy Ticket Now</button>
@@ -453,7 +456,7 @@
             tbody.empty();
 
             if (!data || data.length === 0) {
-                tbody.html('<tr><td colspan="3"> 5 MUST WIN available right now.</td></tr>');
+                tbody.html('<tr><td colspan="3"> MUST WIN available right now.</td></tr>');
                 return;
             }
 
