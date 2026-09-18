@@ -533,9 +533,7 @@
 // Optional: If fetching basic tips, let's grab the first one for "Free Tip of the Day"
             if (tableId === 'basic-table' && data.length > 0) {
                 const freeTip = data[0];
-                $('#free-tip-time').text(freeTip.kickOff || 'Today');
-                $('#free-tip-match').text(`${freeTip.teamA} VS ${freeTip.teamB}`);
-                $('#free-tip-pick 1').text(`Pick:1 ${freeTip.tip}`);
+                
             
             }
 
